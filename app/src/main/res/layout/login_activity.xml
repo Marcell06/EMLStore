@@ -130,4 +130,5 @@
         app:layout_constraintEnd_toEndOf="@+id/view2"
         app:layout_constraintHorizontal_bias="0.733"
         app:layout_constraintStart_toStartOf="@+id/view2" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
