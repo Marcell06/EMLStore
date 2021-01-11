@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">UAS_DPM_TI5A_EMLStore</string>
+    <string name="welcome">Welcome !</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="belum_punya_akun">Belum punya akun?</string>
+    <string name="daftar_disini">Daftar disini</string>
+</resources>
