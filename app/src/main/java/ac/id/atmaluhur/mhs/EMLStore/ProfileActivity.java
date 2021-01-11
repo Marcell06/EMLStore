@@ -1,25 +1,28 @@
 package ac.id.atmaluhur.mhs.EMLStore;
 
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 
+
 import androidx.appcompat.app.AppCompatActivity;
 
 
-public class LoginActivity extends AppCompatActivity {
+public class ProfileActivity extends AppCompatActivity {
 
-    private Button mBtn_profile;
+    private Button mBtn_logout;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.home_activity);
+        setContentView(R.layout.profile_activity);
 
-        mBtn_profile = (Button)findViewById(R.id.button_profile);
+        mBtn_logout = (Button)findViewById(R.id.button_logout);
 
-        mBtn_profile.setOnClickListener(v -> {
-            Intent iLogin = new Intent(getApplicationContext(), ProfileActivity.class);
+        mBtn_logout.setOnClickListener(v -> {
+            Intent iLogin = new Intent(getApplicationContext(), MainActivity.class);
             startActivity(iLogin);
         });
     }
